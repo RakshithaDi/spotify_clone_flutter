@@ -172,7 +172,7 @@ class HomeScreen extends StatelessWidget {
                               title: "All Time Hits",
                             ),
                             const SizedBox(
-                              width: 5,
+                              width: 1,
                             ),
                             SquareTileTwoWidget(
                               imageUrl:
@@ -180,7 +180,7 @@ class HomeScreen extends StatelessWidget {
                               title: "2020 Hits",
                             ),
                             const SizedBox(
-                              width: 5,
+                              width: 1,
                             ),
                             SquareTileTwoWidget(
                               imageUrl:
@@ -188,7 +188,7 @@ class HomeScreen extends StatelessWidget {
                               title: "EDM",
                             ),
                             const SizedBox(
-                              width: 5,
+                              width: 1,
                             ),
                           ],
                         ),

@@ -9,7 +9,7 @@ class SquareTileTwoWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
-      borderRadius: BorderRadius.circular(10),
+      borderRadius: BorderRadius.circular(25),
       child: Card(
         color: kNavbarColor,
         child: InkWell(
@@ -20,12 +20,14 @@ class SquareTileTwoWidget extends StatelessWidget {
                 height: 170,
                 width: 160,
                 child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Image.network(fit: BoxFit.fill, imageUrl),
+                  padding: const EdgeInsets.all(15),
+                  child: ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: Image.network(fit: BoxFit.fill, imageUrl)),
                 ),
               ),
               const SizedBox(
-                height: 10,
+                height: 5,
               ),
               Text(
                 title,
